@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "salt": "49771fba1db49234b2c324a928b9f38e",
+      "passwordHash": "179c13d76e96fd8465e37a52edca5d8efcf88274ce253e2c897d5cb03512ff43",
+      "createdAt": "2026-03-21T11:50:27.0558681+07:00",
+      "role": "agent"
+    },
+    {
+      "id": 2,
+      "username": "ivan",
+      "salt": "285ebf07a5311b007a44c78d01e8ae50",
+      "passwordHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "createdAt": "2026-03-21T11:53:55.4640615+07:00",
+      "role": "client"
+    },
+    {
+      "id": 3,
+      "username": "ivan1111",
+      "salt": "45fe34ef85c2054024635317d002f4ae",
+      "passwordHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "createdAt": "2026-03-21T12:03:37.3101321+07:00",
+      "role": "client"
+    },
+    {
+      "id": 4,
+      "username": "ivanzolo221",
+      "salt": "d60b670272d7bdafaaecac4786820491",
+      "passwordHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "createdAt": "2026-03-21T12:09:29.3320254+07:00",
+      "role": "client"
+    },
+    {
+      "id": 5,
+      "username": "admin",
+      "salt": "f8d1706003b8bde54fbafa3b6cf50e52",
+      "passwordHash": "41e243e2d4c92ab076c6f88e93259bd9dbcdcede1c1369600b25f7e3658f1cef",
+      "createdAt": "2026-03-23T03:13:50.317Z",
+      "role": "admin"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "owner": "demo",
+      "createdAt": "2026-03-21T02:28:49.687Z",
+      "updatedAt": null,
+      "title": "Уютная квартира рядом с метро",
+      "type": "Квартира",
+      "address": "Москва, ул. Примерная, д. 12",
+      "rooms": 2,
+      "area": 54.2,
+      "price": 9900000,
+      "description": "Теплая, светлая квартира. Чистый подъезд, рядом школы и магазины.",
+      "images": [
+        "/photo/625a5568_interery_ivan_mart1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "owner": "demo",
+      "createdAt": "2026-03-20T17:01:06.587Z",
+      "updatedAt": null,
+      "title": "Дом с участком для семьи",
+      "type": "Дом",
+      "address": "Подмосковье, п. Зеленый, ул. Садовая, д. 7",
+      "rooms": 4,
+      "area": 120,
+      "price": 18500000,
+      "description": "Участок, беседка, место под парковку. Отличная транспортная доступность.",
+      "images": [
+        "/photo/nybyggnation-ekeroe-dekaa-entreprenad-ab-img~5641847a0b029b29_14-4810-1-6199b7b.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "owner": "demo",
+      "createdAt": "2026-03-20T10:35:01.216Z",
+      "updatedAt": null,
+      "title": "Комната в центре города",
+      "type": "Комната",
+      "address": "Санкт-Петербург, Невский проспект, д. 44",
+      "rooms": 1,
+      "area": 19.6,
+      "price": 3200000,
+      "description": "Удобная локация, развитая инфраструктура, чистая кухня на этаже.",
+      "images": [
+        "/photo/d406e3dcf2ff38a4ecf017c71e2664ccebccd8ce-32140.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "owner": "demo",
+      "createdAt": "2026-03-20T12:56:13.094Z",
+      "updatedAt": null,
+      "title": "Коммерческое помещение под офис",
+      "type": "Коммерция",
+      "address": "Казань, ул. Баумана, д. 3",
+      "rooms": 3,
+      "area": 72.5,
+      "price": 12500000,
+      "description": "Помещение с ремонтом, отдельный вход, витринные окна.",
+      "images": [
+        "/photo/10985274.jpg"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Ирина Смирнова",
+      "email": "irina.smirnova@example.com",
+      "message": "Подскажите, какие документы нужны для бронирования объекта?",
+      "createdAt": "2026-03-23T03:40:00.000Z"
+    }
+  ],
+  "viewings": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "propertyTitle": "Уютная квартира рядом с метро",
+      "owner": "demo",
+      "requester": "Данила",
+      "phone": "+79233161172",
+      "preferredDate": "26.03.2026",
+      "comment": "А",
+      "status": "new",
+      "createdAt": "2026-03-23T03:59:50.262Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 2,
+      "type": "push",
+      "recipient": "demo",
+      "message": "В CRM появился новый лид по объекту \"Уютная квартира рядом с метро\".",
+      "channel": "crm",
+      "owner": "demo",
+      "relatedType": "demo-seed",
+      "relatedId": 1,
+      "createdAt": "2026-03-23T04:04:46.599Z"
+    },
+    {
+      "id": 1,
+      "type": "sms",
+      "recipient": "+7 923 555-10-20",
+      "message": "Подтверждение показа на 26.03.2026 15:00 отправлено клиенту.",
+      "channel": "viewing",
+      "owner": "demo",
+      "relatedType": "demo-seed",
+      "relatedId": 1,
+      "createdAt": "2026-03-23T04:04:46.599Z"
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": 1,
+      "title": "Просмотр: Уютная квартира рядом с метро",
+      "startAt": "2026-03-26T15:00:00.000Z",
+      "endAt": "2026-03-26T16:00:00.000Z",
+      "location": "Москва, ул. Примерная, д. 12",
+      "owner": "demo",
+      "attendee": "Анна Петрова",
+      "source": "demo-seed",
+      "status": "scheduled",
+      "createdAt": "2026-03-23T04:04:46.598Z"
+    }
+  ],
+  "crmLeads": [
+    {
+      "id": 1,
+      "title": "Лид по просмотру: Уютная квартира рядом с метро",
+      "channel": "site",
+      "stage": "scheduled",
+      "owner": "demo",
+      "contactName": "Анна Петрова",
+      "contactPhone": "+7 923 555-10-20",
+      "contactEmail": "anna.petrowa@example.com",
+      "notes": "Демо-лид для отображения CRM-блока в кабинете.",
+      "sourceId": 1,
+      "sourceType": "demo-seed",
+      "createdAt": "2026-03-23T04:04:46.599Z"
+    }
+  ]
+}
